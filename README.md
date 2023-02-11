@@ -11,3 +11,5 @@ cd misskey-csp-logger
 npm i
 node index.js
 ```
+
+ポート3000番でlistenします
