@@ -16,6 +16,5 @@ node index.js
 
 # 実行手順 (Docker)
 
-1. Dockerfileをビルドします
-2. ポート3000番をForwardした状態で実行します
-3. 指定したポートでlistenします
+1. `docker run -p 3000:3000 ry0tak/misskey-csp-logger`
+2. 3000番でlistenします
